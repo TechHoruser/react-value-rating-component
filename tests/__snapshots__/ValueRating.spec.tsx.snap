@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ValueRating component changes status to "mid-neutral" and then updates to new status 1`] = `
+<div>
+  <div
+    class="valueRating"
+  >
+    <div
+      class="icon"
+    >
+      <div
+        class="triangle shape1 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+      <div
+        class="triangle shape2 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueRating component changes status to "mid-neutral" and then updates to new status 2`] = `
+<div>
+  <div
+    class="valueRating"
+  >
+    <div
+      class="icon"
+    >
+      <div
+        class="triangle shape1 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+      <div
+        class="triangle shape2 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueRating component changes status to "mid-neutral" and then updates to new status 3`] = `
+<div>
+  <div
+    class="valueRating"
+  >
+    <div
+      class="icon"
+    >
+      <div
+        class="triangle shape1 mid-neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+      <div
+        class="triangle shape2 mid-neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueRating component changes status when value changes 1`] = `
+<div>
+  <div
+    class="valueRating"
+  >
+    <div
+      class="icon"
+    >
+      <div
+        class="triangle shape1 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+      <div
+        class="triangle shape2 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueRating component changes status when value changes 2`] = `
+<div>
+  <div
+    class="valueRating"
+  >
+    <div
+      class="icon"
+    >
+      <div
+        class="triangle shape1 mid-neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+      <div
+        class="triangle shape2 mid-neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueRating component renders with custom props 1`] = `
+<div>
+  <div
+    class="valueRating"
+  >
+    <div
+      class="icon"
+    >
+      <div
+        class="triangle shape1 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+      <div
+        class="triangle shape2 neutral"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueRating component renders with default props 1`] = `
+<div>
+  <div
+    class="valueRating"
+  >
+    <div
+      class="icon"
+    >
+      <div
+        class="triangle shape1 good"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+      <div
+        class="triangle shape2 good"
+      >
+        <span
+          class="front"
+        />
+        <span
+          class="back"
+        />
+        <span
+          class="floor"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
