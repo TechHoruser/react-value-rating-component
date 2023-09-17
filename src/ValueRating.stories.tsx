@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react";
-
 import { ValueRating } from "./ValueRating";
 
 const meta = {
@@ -16,6 +15,11 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
+	render: (args) => (
+		<div style={{ height: '3rem', width: '3rem' }}>
+			<ValueRating {...args} />
+		</div>
+	),
 	args: {
 		value: 0,
 		endBad: 0.5,

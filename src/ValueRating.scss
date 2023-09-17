@@ -2,9 +2,9 @@
   --good-color: #1a92b6;
   --bad-color: #c04324;
   --neutral-color: #5c4f4d;
-  --icon-height: 1rem;
-  --icon-deep: 0.2rem;
-  --icon-width: calc(var(--icon-height) / 0.75);
+  --icon-height: 100%;
+  --icon-width: 100%;
+  --icon-deep: calc(var(--icon-height) * 0.15);
 
   $transactionTime: 300ms;
 
@@ -23,6 +23,8 @@
       width: 100%;
       height: 100%;
       transform-style: preserve-3d;
+
+      transition: transform $transactionTime ease;
 
       span {
         @mixin triangle {
@@ -60,17 +62,12 @@
         transition: background-color $transactionTime ease;
       }
 
-      &.good {
-        transition: transform $transactionTime ease;
-
-        span {
-          background-color: var(--good-color);
-        }
+      &.good span {
+        background-color: var(--good-color);
       }
 
       &.bad {
         transform: rotateX(180deg);
-        transition: transform $transactionTime ease;
 
         span {
           background-color: var(--bad-color);
@@ -78,14 +75,12 @@
       }
 
       &.neutral {
-        transition: transform calc($transactionTime) ease;
-
         &.shape1 {
-          transform: rotateX(90deg) translateZ(calc(var(--icon-height) * 0.15));
+          transform: translateY(20%) rotateX(90deg);
         }
 
         &.shape2 {
-          transform: rotateX(90deg) translateZ(calc(var(--icon-height) * 0.15 * -1));
+          transform: translateY(-20%) rotateX(90deg);
         }
 
         span {
@@ -94,7 +89,6 @@
       }
 
       &.mid-neutral {
-        transition: transform calc($transactionTime) ease;
 
         &.shape1 {
           transform: rotateX(90deg);
